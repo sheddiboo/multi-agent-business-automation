@@ -1,0 +1,7 @@
+[project]
+name = "crew-ai"
+version = "0.1.0"
+description = "Crew AI tutorial and project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
