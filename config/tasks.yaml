@@ -1,0 +1,14 @@
+research_task:
+  description: >
+    Find 3-5 interesting and recent facts about the topic: {topic} as of year 2025.
+    Focus on verified data, technological advancements, or market trends.
+  expected_output: >
+    A clear, bulleted list of 3-5 distinct facts.
+
+blog_task:
+  description: >
+    Write a 100-word engaging blog post summary about {topic}.
+    You must use the specific facts gathered by the Research Specialist 
+    to create a narrative that is exciting and informative.
+  expected_output: >
+    A 100-word blog post summary formatted in Markdown.
