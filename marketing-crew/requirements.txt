@@ -1,0 +1,6 @@
+crewai==0.86.0
+crewai-tools==0.17.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+langchain-groq==0.2.1
+# Note: Ensure you have a CEREBRAS_API_KEY and GROQ_API_KEY in your .env

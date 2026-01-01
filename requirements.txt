@@ -1,0 +1,23 @@
+# --- Core Framework & Standard Tools ---
+crewai==0.86.0
+# [tools] ensures dependencies for SerperDevTool and ScrapeWebsiteTool are included
+crewai[tools]==0.86.0
+
+# --- LLM Provider SDKs (Hybrid Architecture) ---
+# Essential for your Marketing Crew's Groq and Cerebras setup
+groq==0.14.0
+langchain-groq==0.2.1
+cerebras-cloud-sdk==1.1.0
+
+# --- Environment & Configuration ---
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# --- Search & Content Parsing ---
+# Necessary for SerperDevTool and web scraping logic
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# --- Developer Utilities & Notebooks ---
+# Required for running your .ipynb files in the repo
+ipykernel==6.29.5
