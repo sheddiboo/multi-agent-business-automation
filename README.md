@@ -65,10 +65,11 @@ The flagship project in this repository is the **Marketing Crew**, which impleme
 
 ## 📖 How to Use
 
-1. **Clone the repository**:
-```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+## 📖 How to Use
 
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/sheddiboo/multi-agent-business-automation.git](https://github.com/sheddiboo/multi-agent-business-automation.git)
 ```
 
 
