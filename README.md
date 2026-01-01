@@ -1,5 +1,5 @@
 
-# 🤖 Agentic AI & Automation Portfolio
+# 🤖 Agentic AI & Automation
 
 Welcome to my repository for advanced AI agent orchestration and automation workflows. This project showcases the implementation of multi-agent systems designed for business intelligence, marketing, and data automation, with a focus on high-performance execution.
 
