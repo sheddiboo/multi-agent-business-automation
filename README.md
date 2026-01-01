@@ -20,16 +20,25 @@ The flagship project in this repository is the **Marketing Crew**, which impleme
 
 ```text
 .
-├── marketing-crew/          # [PRIMARY] Automated Marketing Pipeline
-│   ├── config/              # Agent and Task YAML definitions
-│   ├── resources/           # Generated drafts and marketing assets
-│   ├── crew.py              # Main execution logic (Groq/Cerebras Hybrid)
-│   └── README.md            # Marketing-specific documentation
-├── crew_with_tool.ipynb     # Research: Testing custom tools with CrewAI
-├── email_agent_with_tool.py # Automation: Specialized email outreach agent
-├── my_crew.py               # Prototype: Baseline multi-agent configuration
-└── requirements.txt         # Global dependencies
-
+├── marketing-crew/              # Primary Automated Marketing Pipeline
+│   ├── config/                  # YAML files defining Agent personas and Task details
+│   ├── resources/               # Directory for generated marketing outputs
+│   │   └── drafts/              # Specific storage for strategy and calendar .md files
+│   ├── crew.py                  # Main execution logic (Cerebras/Groq Hybrid)
+│   ├── README.md                # Project-specific documentation for the Marketing Crew
+│   └── requirements.txt         # Dependencies specific to the marketing pipeline
+├── config/                      # Global configuration files for root-level crews
+├── .env                         # [HIDDEN] API keys for Cerebras, Groq, and Serper
+├── .gitignore                   # Instructions for Git to ignore .env and cache files
+├── .python-version              # Local Python version specification
+├── crew.ipynb                   # Interactive notebook for testing general crew logic
+├── crew_with_tool.ipynb         # Research: Testing custom tool integrations with CrewAI
+├── email_agent_with_tool.py     # Specialized agent script for automated email outreach
+├── email_agent.ipynb            # Notebook for prototyping email automation workflows
+├── my_crew.py                   # Simplified "BlogCrew" prototype and baseline testing
+├── pyproject.toml               # Modern Python packaging and dependency configuration
+├── requirements.txt             # Global dependencies for the entire repository
+└── README.md                    # Main portfolio documentation (this file)
 ```
 
 ---
